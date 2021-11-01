@@ -1,1 +1,1 @@
-# Assignment-Week-2-Askar-Kudaibergenov
+# Solutions to Coursera Assignments
