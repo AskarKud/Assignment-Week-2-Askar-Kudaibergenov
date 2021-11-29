@@ -1,38 +1,87 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Module 2. Solution to the Assignment</title>
-<link rel="stylesheet" href="css/css-styles.css">
-<style>
-</style>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution by Askar Kudaibergenov</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css-styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-<h1>The Restaurant Menu</h1>
 
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div id="container">
-      <p>If you think long pasta can’t get any wider than fettuccine, think again. Pappardelle pasta noodles are even better at meshing with rich, meat-based sauces. For example, it’s most commonly used in ragu or bolognese, but it’s also great for seafood pasta dishes. It’s big, bad, and sturdy, so you can throw any hearty sauce its way.</p>
-      <div id="id1">Pappardelle</div>
-    </div>
-  </div> 
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <!--<a href="index.html" class="pull-left visible-md visible-lg">
+             <div id="logo-img"></div> 
+          </a>-->
+
+          <div class="navbar-brand navbar-left">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+            <!-- <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p> -->
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#">
+                <span></span><br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <span></span><br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                <span></span><br class="hidden-xs"> Turkey</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+  </header>
   
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div id="container">
-      <p>Like a flat spaghetti noodle — that’s fettuccini. It’s a thicker and more dense noodle. It’s fairly wide, so it works well with chunky meat sauces, unlike other types of long pasta. Of course, creamy alfredo sauce tossed in with fettuccine is a dynamic duo.</p>
-      <div id="id2">Fettuccine</div>
+  <h1 class="text-center">Our Menu</h1>
+
+  <div class="container">
+    <div class="col-xs-12 Chicken">
+      <h3 class="text-center">Chicken</h3>
+      <p>One of the most versatile foods on the planet, chicken can be roasted, baked, grilled, sautéed, braised, or fried. Whether you've never cooked a chicken before, or you're looking for a new twist on the same old bird, here's the ultimate guide on how to cook chicken. 
+         <ol>
+          <li>Roasted Chicken <br>Roasted chicken is one of the tastiest, most satisfying dishes you can make. Not only that but roasting a chicken is also one of the easiest ways to prepare a delicious family dinner. Here's a tutorial on how to roast a chicken.</li>
+          <li>Baked Chicken <br>Baked chicken is different from roasted chicken in two ways. First, baked chicken is prepared with chicken parts (i.e., individual drumsticks, thighs, breasts, and wings) whereas roasted chicken is cooked whole. Second, baked chicken is dredged in seasoned flour before we cook it, which we don't do when roasting a whole bird.</li>
+          <li>Braised Chicken <br>Braising is a great technique for when we want to cook cheaper or less tender cuts of meat, but it's also a wonderful way to cook chicken. Braised chicken is a warming, soulful dish, and the meat will almost fall off the bone.</li>
+          <li>Baked Chicken <br>Baked chicken is different from roasted chicken in two ways. First, baked chicken is prepared with chicken parts (i.e., individual drumsticks, thighs, breasts, and wings) whereas roasted chicken is cooked whole. Second, baked chicken is dredged in seasoned flour before we cook it, which we don't do when roasting a whole bird.</li>
+          <li>Poached Chicken <br>Whether you're just poaching chicken breasts or you're poaching a whole chicken, poaching is an easy and delicious method for cooking chicken. Poached chicken is naturally low in fat and always comes out moist and juicy. And as an added bonus, when you're done poaching the chicken, you're left with a delicious, savory chicken broth that you can use for making sauces, soups and all kinds of other recipes.</li>
+          <li>Fried Chicken <br>The key to deep-frying is maintaining the oil's temperature between 325 F and 400 F. Hotter than that and most oils will start to smoke. Fried chicken is a great example of the basic deep-frying technique where items are dipped in a simple batter or seasoned flour before we cook them, which helps to protect and further seal in moisture. Here's a recipe for buttermilk fried chicken.</li>
+          <li>Broiled Chicken <br>Broiled chicken is prepared using a smaller bird called a "broiler" (typically around two to three pounds) which is either split open around the backbone so that it can be cooked flat or simply halved. Either way, flattening out the chicken helps it cook faster, which is important given that broiling involves very high heat.</li>
+          <li>Grilled Chicken <br>Grilled chicken is always a favorite dish, especially during the summer months. You can grill an entire cut up chicken, which is great because the breasts cook a lot faster than the thighs or drumsticks. Skinless, boneless chicken breasts are especially popular for the grill.</li>
+          <li>Sautéed or Pan-Fried Chicken <br>Sautéed or pan-fried chicken is really a two-stage procedure that involves cooking in a hot pan with a small amount of fat and finishing it either in the oven or by simmering it in some sort of sauce. This lets flavors develop while also ensuring that the chicken is fully cooked. Boneless chicken breast cutlets are great for this method.</li>
+        </ol> 
+      </p>
     </div>
   </div>
-  
-  <div class="col-lg-4 col-md-12 col-sm-12">
-    <div id="container">
-      <p>It looks a lot like traditional spaghetti. However, it’s more round, and there’s a hole through the middle that gives each noodle a hollow center. This makes it a little thicker than spaghetti noodles. When cooked in soups, pasta dishes, and casseroles, it hoards extra sauce. That’s the superpower of bucatini.</p>
-      <div id="id3">Bucatini</div>
-    </div>
-  </div>
-</div>
 
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
